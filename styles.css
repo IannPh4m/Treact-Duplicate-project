@@ -139,6 +139,7 @@ li {
     margin: 8px 8px 8px 0;
     padding: 16px 0;
     border-radius: 50px;
+    border: none;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -292,6 +293,7 @@ li {
 
 .quality__btn {
     background-color: #6415FF;
+    font-weight: 700;
     padding: 12px 32px;
     border-radius: 50px;
     color: white;
@@ -305,5 +307,125 @@ li {
 }
 
 .quality__img {
+    max-width: 100%;
+}
+
+/* STEPS */
+
+.steps__row {
+    display: flex;
+    align-items: center;
+}
+
+.steps__img--wrapper {
+    width: 50%;
+    height: auto;
+}
+
+.steps__img {
+    max-width: 100%;
+}
+
+.steps__description {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 24px;
+}
+
+.steps__header {
+    font-weight: 700;
+    letter-spacing: 0.1em;
+}
+
+.steps__sub-header {
+    font-weight: 900;
+    font-size: 48px;
+    color: #243E63;
+    margin-top: 16px;
+    line-height: 1.25;
+}
+
+.steps__list--wrapper {
+    display: flex;
+    margin-top: 32px;
+}
+
+.steps__list {
+    color: #cbd5e0;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 36px;
+}
+
+.steps__list--description {
+    display: flex;
+    flex-direction: column;
+    margin-left: 24px;
+}
+
+.steps__list--title {
+    color: #243E63;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.steps__list--para {
+    margin-top: 12px;
+    color: #718096;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 2;
+    max-width: 320px;
+}
+
+/* VALUES */
+
+.values__row {
+    display: flex;
+    align-items: center;
+}
+
+.values__description {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 32px 0;
+}
+
+.values__header {
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+}
+
+.values__sub-header {
+    font-size: 48px;
+    font-weight: 900;
+    margin-top: 16px; 
+}
+
+.values__para {
+    font-size: 18px;
+    color: #7c8ba1;
+    margin-top: 16px;
+}
+
+.values__btn {
+    background-color: #6415FF;
+    font-weight: 700;
+    padding: 12px 32px;
+    border-radius: 50px;
+    color: white;
+    margin-top: 32px;
+    border: none;
+}
+
+.values__img--wrapper {
+    width: 50%;
+    height: auto;
+}
+
+.values__img {
     max-width: 100%;
 }
