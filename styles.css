@@ -773,3 +773,60 @@ li {
     background-color:rgb(226, 232, 240);
 }
 
+/* CALLTOACTION */
+
+.CTA__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 80px;
+    background-color: #6415FF;
+    height: 282px;
+    border-radius: 8px;
+}
+
+.CTA__description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1280px;
+    font-weight: 700;
+    color: white;
+}
+
+.CTA__header {
+    max-width: 50%;
+    font-size: 30px;
+    line-height: 1.5;
+    padding: 0 40px;
+    text-align: left;
+}
+
+
+.CTA__buttons {
+    display: flex;
+    gap: 32px;
+    padding: 0 40px;
+    width: 50%;
+}
+
+.CTA__button {
+    padding: 20px 40px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 50px;
+}
+
+.CTA__button--start {
+    background-color: #f56565;
+    color: white;
+    border: none;
+}
+
+.CTA__button--contact {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+}
