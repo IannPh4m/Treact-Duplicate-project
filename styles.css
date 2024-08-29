@@ -935,3 +935,49 @@ li {
     border-radius: 50%;
     margin-right: 16px;
 }
+
+
+/* SMALL PHONES, TABLETS, LARGE SMARTPHONES */
+
+@media (max-width: 768px) {
+
+    .header__container {
+        padding: 80px;
+    }
+
+    .header__row {
+        flex-direction: column;
+    }
+
+    .header__wrapper {
+        max-width: 512px;
+        width: 100%;
+    }
+
+    .header__title {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .header__para {
+        font-size: 16px;
+        text-align: center;
+        margin: 20px 0;
+    }
+
+    .header__customer {
+        margin-top: 48px;
+    }
+
+    .header__customer--para {
+        font-size: 14px;
+        text-align: center;
+        padding: 0;
+    }
+
+    .header__graphic {
+        max-width: 512px;
+        margin-top: 48px;
+        width: 100%;
+    }
+}
