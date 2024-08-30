@@ -271,6 +271,7 @@ li {
     flex-direction: column;
     width: 50%;
     padding: 32px 0;
+    max-width: 576px;
 }
 
 .quality__header {
@@ -941,6 +942,10 @@ li {
 
 @media (max-width: 768px) {
 
+    .h3 {
+        font-size: 32px;
+    }
+
     .header__container {
         padding: 80px;
     }
@@ -980,4 +985,99 @@ li {
         margin-top: 48px;
         width: 100%;
     }
+
+    /* FEATURES */
+
+    .features__para {
+        font-size: 16px;
+    }
+
+    .features__highlight {
+        width: 50%;
+    }
+
+    /* QUALITY */
+
+    .quality__sub-header {
+        font-size: 36px;
+    }
+
+    .quality__para {
+        font-size: 16px;
+    }
+
+    /* STEPS */
+
+    .steps__sub-header {
+        font-size: 36px;
+    }
+
+    /* VALUES */
+
+    .values__sub-header {
+        font-size: 36px;
+    }
+
+    .values__para {
+        font-size: 16px;
+    }
+
+    .values__highlights {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* PRICING */
+
+    .pricing__sub-header {
+        font-size: 32px;
+    }
+
+    .pricing__para {
+        font-size: 16px;
+    }
+
+    .pricing__plans {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pricing__plan {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 64px;
+    }
+
+    /* TESTIMONIALS */
+
+    .testimonials__sub-header {
+        font-size: 36px;
+    }
+
+    .testimonials__para {
+        font-size: 16px;
+    }
+
+    /* CALL-TO-ACTION */
+
+    .CTA__description {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .CTA__header {
+        width: 100%;
+        text-align: center;
+        padding: 0;
+    }
+
+    .CTA__buttons {
+        display: flex;
+        justify-content: center;
+        margin-top: 24px;
+    }
+
+    
 }
